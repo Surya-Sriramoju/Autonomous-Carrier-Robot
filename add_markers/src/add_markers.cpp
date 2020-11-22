@@ -86,7 +86,7 @@ int main( int argc, char** argv )
     marker_pub.publish(marker);
     
     if (complete) {
-      ROS_INFO("=== DESTINATION Reached ===");
+      ROS_INFO("Object Dropped-Off");
       sleep(7);
       return 0;
       }
